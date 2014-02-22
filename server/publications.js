@@ -3,3 +3,8 @@
 Meteor.publish('players', function(){
   return Players.find({});
 });
+
+Meteor.publish('chats', function(){
+  return Chats.find({});
+});
+

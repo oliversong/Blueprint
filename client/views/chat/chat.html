@@ -1,0 +1,19 @@
+<template name="chat">
+  <table class="chatbox">
+    <tr>
+      <td>
+        <div class="chatlog">
+          {{#each chats}}
+            <div>{{this.text}}</div>
+          {{/each}}
+        </div>
+      </td>
+    </tr>
+    <tr class="fixHeight">
+      <td class="fixHeight">
+        <input name="message" type="text" class="chatInput" id="master" />
+      </td>
+    </tr>
+  </table>
+</template>
+
