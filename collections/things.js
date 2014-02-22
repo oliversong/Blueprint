@@ -1,1 +1,6 @@
-Things = new Meteor.Collection("things");
+Players = new Meteor.Collection("players");
+
+Players.allow({
+  update: yes,
+  remove: yes
+});
