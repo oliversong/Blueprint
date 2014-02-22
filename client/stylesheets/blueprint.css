@@ -86,6 +86,7 @@ body {
 }
 .chatlog{
   width: 100%;
+  min-height: 300px;
   vertical-align: top;
 }
 
