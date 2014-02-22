@@ -1,4 +1,4 @@
-Template.player.selected = Template.landing.helpers({
+Template.player.helpers({
   selected: function () {
     return Session.equals("selected_player", this._id) ? "selected" : '';
   }

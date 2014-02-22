@@ -5,7 +5,12 @@ Template.landing.helpers({
 
   selected_name: function () {
     var player = Players.findOne(Session.get("selected_player"));
-    return player && player.name;
+    var ifExist = player && player.name;
+    if(ifExist){
+      return player.name;
+    } else {
+      return false;
+    }
   }
 
 });
