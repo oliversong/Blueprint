@@ -69,10 +69,9 @@ body {
 }
 
 .chatbox{
-  margin: 20px;
   border: #CCC 1px solid;
   position: relative;
-  width: 300px;
+  width: 600px;
   float:left;
   overflow:scroll;
 }
